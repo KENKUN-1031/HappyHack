@@ -1,9 +1,24 @@
+@font-face {
+    font-family: 'Futura';
+    src: url(/fonts/Futura-Boo.ttf)
+}
+@font-face {
+    font-family: 'Futura-Bol';
+    src: url(/fonts/Futura-Bol.ttf)
+}
+@font-face {
+    font-family: 'Futura-BooObl';
+    src: url(/fonts/Futura-BooObl.ttf)
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Futura';
 }
+
+
 
 .container{
     max-width: 60vw;
@@ -34,8 +49,8 @@
 }
 .titleBox p{
     color: white;
-    font-family: 'Futura';
-    font-size: 40px;
+    font-family: 'Futura-BooObl';
+    font-size: 45px;
     font-weight: lighter;
     text-align: center;
 }
@@ -48,8 +63,9 @@
 
 h2{
     color: #3D5CDA;
-    font-family: 'Futura';
-    font-size: 55px;
+    font-family: 'Futura-Bol';
+    font-size: 56px;
+    font-weight: 700;
     margin-top: 5vh;
     margin-bottom: 5vh;
     text-align: center;
@@ -81,10 +97,12 @@ h2{
 
 .details p{
     text-align: left;
+    font-family: 'Hiragino Kaku Gothic Pro';
 }
 
 .info a{
     margin-top: 50px;
+    padding-top: 5px;
     width: 170px;
     height: 40px;
     border-radius: 10px;
@@ -228,4 +246,33 @@ footer p{
 
 .slick-prev:before{
     color: black
+}
+
+.toolbar{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.toolbar nav{
+    display: flex;
+}
+
+.toolbar nav ul{
+    display: flex;
+    column-gap: 40px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.toolbar nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Futura-BooObl';
+    font-weight: lighter;
+}
+
+.toolbar nav a:hover{
+    color: #3D5CDA;
 }
