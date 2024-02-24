@@ -22,5 +22,7 @@ $(function($){
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
+        centerPadding: '0px',
+        dots: true,
     });
 });

@@ -49,7 +49,7 @@
 h2{
     color: #3D5CDA;
     font-family: 'Futura';
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 5vh;
     margin-bottom: 5vh;
     text-align: center;
@@ -112,7 +112,7 @@ h2{
 #particles-js{ 
     position:absolute;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #d6e5f9; 
     background-image: url(""); 
     background-repeat: no-repeat; 
@@ -216,4 +216,16 @@ footer p{
 .multiple-items{
     max-width: 70vw;
     margin: 0 auto;
+}
+
+.multiple-items img{
+    width: 100%;
+}
+
+.slick-next:before{
+    color: black
+}
+
+.slick-prev:before{
+    color: black
 }
