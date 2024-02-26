@@ -271,8 +271,58 @@ footer p{
     font-size: 24px;
     font-family: 'Futura-BooObl';
     font-weight: lighter;
+    transition: 0.3s;
 }
 
 .toolbar nav a:hover{
     color: #3D5CDA;
 }
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 95vw;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 120px;
+        margin-bottom: 100px;
+    }
+
+    .info:nth-child(3){
+        flex-direction: column;
+    }
+
+    .course{
+        height: 200px;
+        width: 160px;
+    }
+
+    .course a{ 
+        width: 140px;
+        height: 32px;
+        font-size: 12px;
+    }
+}
+
+/* .course{
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+    border-radius: 15px;;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+/* .info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    margin-right: 150px;
+    margin-left: 150px;
+} */

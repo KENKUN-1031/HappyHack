@@ -24,5 +24,14 @@ $(function($){
         autoplay: true,
         centerPadding: '0px',
         dots: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 });
