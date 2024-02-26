@@ -16,6 +16,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Futura';
+    scroll-behavior: smooth;
 }
 
 
@@ -56,7 +57,7 @@
 
 
 #Intro{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 h2{
@@ -113,17 +114,26 @@ h2{
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.info a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .info:nth-child(3) a{
     background-color: #FEBF00;
 }
 
+.info:nth-child(3) a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 #Courses{
     padding-top: 20px;
     padding-bottom: 70px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     /* background-color: lightblue; */
 }
 
@@ -185,34 +195,63 @@ h2{
     text-align: center;
     padding-top: 4%;
     font-size: 13.5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.course a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .course:nth-child(2) a{
     background-color: #28A9DF;
 }
 
+.course:nth-child(2) a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 .course:nth-child(3) a{
     background-color: #333333;
+}
+
+.course:nth-child(3) a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .course:nth-child(4) a{
     background-color: #FF5252;
 }
 
+.course:nth-child(4) a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 .course:nth-child(5) a{
     background-color: #FED602;
+}
+
+.course:nth-child(5) a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .course:nth-child(6) a{
     background-color: #FE7535;
 }
 
+.course:nth-child(6) a:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 .course:nth-child(7) a{
     background-color: #72CEDD;
 }
 
-.Images img{
+/* .Images img{
     max-height: 300px;
+} */
+
+.Images-wrap{
+    margin-bottom: 150px;
 }
 
 
@@ -318,8 +357,14 @@ footer p{
     .info img{
         max-width: 80vw;
     }
+    .details{
+        margin-bottom: 50px;
+    }
+    .details a {
+        margin-top: 30px;
+    }
     .Access iframe{
-        max-width: 95vw;
+        max-width: 100vw;
     }
     .titleBox p{
         color: white;
@@ -327,6 +372,12 @@ footer p{
         font-size: 25px;
         font-weight: lighter;
         text-align: center;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .course img{
+        max-height: 35%;
     }
 }
 
