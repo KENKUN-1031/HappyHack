@@ -31,6 +31,13 @@ $(function($){
                     slidesToShow: 2,
                     slidesToScroll: 1,
                 }
+            },
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
             }
         ]
     });
