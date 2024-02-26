@@ -21,7 +21,7 @@
 
 
 .container{
-    max-width: 60vw;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ h2{
 
 .info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 50px;
     flex-wrap: wrap;
     margin-right: 150px;
