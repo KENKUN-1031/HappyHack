@@ -303,6 +303,9 @@ footer p{
         height: 32px;
         font-size: 12px;
     }
+    .toolbar{
+        display: none;
+    }
 }
 
 /* .course{
