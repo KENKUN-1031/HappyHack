@@ -21,7 +21,8 @@
 
 
 .container{
-    max-width: 70vw;
+    /* max-width: 65vw; */
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -96,8 +97,10 @@ h2{
 }
 
 .details p{
+    word-break: normal;
     text-align: left;
     font-family: 'Hiragino Kaku Gothic Pro';
+    max-width: 400px;
 }
 
 .info a{
