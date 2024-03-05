@@ -318,6 +318,9 @@ footer p{
 }
 
 @media (max-width: 768px) {
+    .titleBox p{
+        font-size: 25px;
+    }
     .container {
         max-width: 95vw;
     }
